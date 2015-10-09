@@ -1,4 +1,4 @@
-package demo.stage.core;
+package micro.framework.stage.core;
 
 /**
  *
