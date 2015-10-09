@@ -6,5 +6,10 @@ package micro.framework.stage.core;
  * @date Oct 9, 2015 12:27:11 PM
  */
 public interface Stagable {
-
+	
+	StageEvent nextStage(String eventType);
+	
+	String id();
+	
+	StageEventSelector selector();
 }
